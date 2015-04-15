@@ -1,0 +1,318 @@
+@font-face {
+    font-family: 'Folks';
+    src: url('../media/global/fonts/Folks-Bold.ttf');
+    font-weight: regular;
+    font-style: regular;
+}
+@font-face {
+    font-family: 'Myriad';
+    src: url('../media/global/fonts/myriad-web-pro.ttf');
+    font-weight: regular;
+    font-style: regular;
+}
+
+@font-face {
+    font-family: 'Myriad-Light';
+    src: url('../media/global/fonts/MyriadPro-Light.otf');
+    font-weight: light;
+    font-style: light;
+}
+html {
+	height:100%;
+	padding: 0;
+	max-width: 1024px;
+	max-height: 768px;
+	width: 1024px;
+	height: 768px;
+  	margin: 0 auto;
+}
+body{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	margin: 0 auto;	
+	height:100%;
+	max-width: 1024px;
+	max-height: 768px;
+	padding: 0;
+}
+a { border: 0; outline: 0;}
+a:hover { border: 0; }
+a:selected { border: 0; }
+a:focus{ outline:0; }
+#contentBG { 
+	position: relative;
+	margin: 0 auto;
+}
+
+#contentBGGraphic {
+	display: block;
+	background:url(../media/global/images/Background.png);
+	background-repeat: no-repeat;
+	position:relative;
+	margin: 0 auto;
+    background-size: 1024px 768px;
+	width: 1024px;
+	height: 768px;
+}
+
+#content{ position: absolute; top: 78px; left: 0; height: 608px; width: 1024px; }
+
+img { border: none; }
+
+.button {    /*****  necessary ????**/
+	cursor: pointer;
+}
+
+#titleM { 
+	font-family:Folks;
+	font-size: 26px;
+	line-height: 46px;
+	color: #414042;
+	position:absolute;
+	top: 26px;
+	left: 104px;
+}
+
+
+
+/************  Audio Scrubber *************/
+#audioBG{
+	position:absolute;
+	background-size: 368px 10px;
+	width:369px;
+	height:12px;
+	left:143px;
+	bottom: 45px;
+	background:url(../media/global/images/scrubberBG.png);
+}
+#audioScrub{
+	position:absolute;
+	height:9px;
+	top:2px;
+	left:3px;
+	background:url(../media/global/images/scrubber.png);
+}
+#audioScrubTouch{
+	position:relative;
+	width:368px;
+	height:50px;
+	bottom: 21px;
+	z-index:1;
+}
+#disclaimer { 
+	font-family: 'Myriad';
+	font-size: 10px;
+	line-height: 12px;
+	color: #7b7c7f;
+	position: absolute;
+	bottom: 18px;
+	left:145px;
+}
+#popupReturn{
+	display:inherit;
+	background:url(../media/global/images/Restart.png);
+	width:1024px;
+	height:768px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index: 998;
+}
+
+#mainMenuButton{ 
+	background: url(../media/global/images/menu.png); 
+	background-repeat: no-repeat;
+	width: 69px; height: 18px; 
+	position: absolute; 
+	top: 16px; 
+	left: 20px;  
+}
+
+#backButton { /* Rewind */
+	position:absolute;
+	background-size: 55px 55px;
+	width: 55px;
+	height: 55px;
+	bottom:29px;
+	left:740px;
+}
+#playPauseButton.pause {
+	background:url(../media/global/images/btn_pause.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	background-size: 55px 55px;
+	width: 55px;
+	height: 55px;
+	bottom:29px;
+	left:806px;
+}
+#playPauseButton.pause.off{
+	background:url(../media/global/images/btn_pause_off.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	background-size: 55px 55px;
+	width: 55px;
+	height: 55px;
+	bottom:29px;
+	left:806px;
+}
+#playPauseButton.play {
+	background:url(../media/global/images/btn_play.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	background-size: 55px 55px;
+	width: 55px;
+	height: 55px;
+	bottom:29px;
+	left:806px;
+}
+#playPauseButton.play.off {
+	background:url(../media/global/images/btn_play_off.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	background-size: 55px 55px;
+	width: 55px;
+	height: 55px;
+	bottom:29px;
+	left:806px;
+}
+#refreshButton { 
+	background:url(../media/global/images/btn_refresh.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	background-size: 55px 55px;
+	width: 55px;
+	height: 55px;
+	bottom:29px;
+	left:870px;
+}
+#refreshButton.off {  
+	background:url(../media/global/images/btn_refresh_off.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	background-size: 55px 55px;
+	width: 55px;
+	height: 55px;
+	bottom:29px;
+	left:870px;
+}
+#forwardButton {  /* Forward */
+/*	background:url(../media/global/images/forward.png);*/
+	position:absolute;
+	background-size: 55px 55px;
+	width: 55px;
+	height: 55px;
+	bottom:29px;
+	left:936px;
+}
+
+#videoID{
+	position:absolute;
+	top:80px;
+	left:0px;
+}
+
+
+/******FLIP CARD CSS STYLE RULES *********/
+
+.flip {
+  -webkit-perspective: 800;
+   width: 1024px;
+   height: 768px;
+   position: relative;
+}
+.flip .card.flipped {
+  -webkit-transform: rotatey(-180deg);
+}
+.flip .card {
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 0.5s;
+}
+.flip .card .face {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-backface-visibility: hidden ;
+  z-index: 2;
+    font-family: Georgia;
+    font-size: 3em;
+    text-align: center;
+    line-height: 200px;
+}
+.flip .card .front {
+  position: absolute;
+  z-index: 1;
+    color: white;
+    cursor: pointer;
+}
+.flip .card .back {
+  -webkit-transform: rotatey(-180deg);
+    color: black;
+    cursor: pointer;
+}
+#help {
+	width: 1024px;
+	height: 768px;
+}
+/*** assessments and progress checks ****/
+#result_img { 
+	background-size: 1024px 768px;
+	width: 1024px;
+	height: 768px;
+}
+
+#resultsCover {	
+	background-color:  rgba(123, 124, 127, 0.8);
+	width: 1024px;
+	height:768px;
+}
+#popWindow img {
+	position: absolute;
+	top: 78px
+	left: 0px;	
+	width: 1024px;
+	height:608px;
+}
+/************ checkboxes  **********/
+.checkBox.checkCircle img {
+background:url(../media/global/images/check.png);
+background-repeat: no-repeat;
+width:100%;
+height:100%;
+}
+.checkBox.checkMark img {
+background:url(../media/global/images/checkMark.png);
+background-repeat: no-repeat;
+width:100%;
+height:100%;
+}
+/**** pop-ups ***********/
+#pop1_container {
+	top: 78px !important;
+	height: 608px !important;
+}
+#pop2_container {
+	top: 78px !important;
+	height: 608px !important;
+}
+#pop3_container {
+	top: 78px !important;
+	height: 608px !important;
+}
+#pop4_container {
+	top: 78px !important;
+	height: 608px !important;
+}
+#pop5_container {
+	top: 78px !important;
+	height: 608px !important;
+}
+#pop6_container {
+	top: 78px !important;
+	height: 608px !important;
+}
+#result_img {
+	top: 78px !important;
+	height: 608px !important;
+}

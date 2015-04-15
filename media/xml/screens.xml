@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screenList>
+	
+	<!-- Lesson 1 -->	
+	<screen>
+		<name>M1L0S01</name> <!-- 0 -->
+		<title></title>
+		<type>splash</type>
+		<mediaName>M1L0S01.mp3</mediaName>
+	</screen> 
+	
+
+	<screen>
+		<name>M1L1S01</name> <!-- 1 -->
+		<title>Parent Perspective</title>
+		<mediaName>CET_102.mp4</mediaName>
+		<animation></animation>
+	</screen>
+	
+	<screen>
+		<name>M1L1S02</name> 
+		<title>Lesson 1 Learning Objectives</title>
+		<mediaName>M1L1S02.mp3</mediaName>
+		<animation>true</animation>
+	</screen>
+	
+	<screen> 
+		<name>M1L1S03</name>
+		<title>Functions of Infant Skin</title>
+		<mediaName>CET_103.mp4</mediaName>
+		<animation></animation>
+	</screen>
+
+	<screen> 
+		<name>M1L1S04</name>
+		<title>Benefits of Infant Massage</title>
+		<mediaName>M1L1S04.mp3</mediaName>
+		<animation>true</animation>
+		
+		<popup>
+			<name>pop1</name>
+			<mediaName></mediaName>
+		</popup>		
+		<popup>
+			<name>pop2</name>
+			<mediaName></mediaName>
+		</popup>
+		<popup>
+			<name>pop3</name>
+			<mediaName></mediaName>
+		</popup>
+	</screen>
+	
+	<screen>
+		<name>M1L1S05</name>
+		<title>How Cetaphil Baby Meets Infant Skin Care Needs</title>
+		<mediaName>M1L1S05.mp3</mediaName>
+		<animation>true</animation>
+		
+		<popup>
+			<name>pop1</name>
+			<mediaName></mediaName>
+		</popup>		
+		<popup>
+			<name>pop2</name>
+			<mediaName></mediaName>
+		</popup>
+		<popup>
+			<name>pop3</name>
+			<mediaName></mediaName>
+		</popup>
+		<popup>
+			<name>pop4</name>
+			<mediaName></mediaName>
+		</popup>
+	</screen>
+	
+	<screen>
+		<name>M1L1S06</name>
+		<title>Key Ingredient: Organic Calendula Extract</title>
+		<mediaName>M1L1S06.mp3</mediaName>
+		<animation>true</animation>
+		
+		<popup>
+			<name>pop1</name>
+			<mediaName></mediaName>
+		</popup>		
+		<popup>
+			<name>pop2</name>
+			<mediaName></mediaName>
+		</popup>
+		<popup>
+			<name>pop3</name>
+			<mediaName></mediaName>
+		</popup>
+	</screen>
+	
+	<screen>
+		<name>M1L1S07</name>
+		<title>Progress Check</title>
+		<mediaName></mediaName>
+		
+		<assessment>
+		<type>multiple</type>
+		<options>
+		<subtype>multiSelect</subtype>
+		</options>
+		</assessment>	
+
+	</screen>
+
+	
+	<screen> 
+		<name>M1L1S08</name>
+		<title>Progress Check</title>
+		<mediaName></mediaName>
+				
+		<assessment>
+			<type>multiple</type>
+		</assessment>
+	</screen>
+
+	
+	<!-- Lesson 2 -->	
+	<screen><!-- 9 -->
+		<name>M1L2S01</name>
+		<title>Dermatologist Perspective</title>
+		<mediaName>CET_107.mp4</mediaName>
+		<animation></animation>
+	</screen>
+
+	<screen>
+		<name>M1L2S02</name>
+		<title>Lesson 2 Learning Objectives</title>
+		<mediaName>M1L2S02.mp3</mediaName>
+		<animation>true</animation>
+	</screen>
+	
+	<screen>
+		<name>M1L2S03</name>
+		<title>Get to Know the Cetaphil Baby Line</title>
+		<mediaName>M1L2S03.mp3</mediaName>
+		<animation>true</animation>
+	</screen>
+	
+	<screen>
+		<name>M1L2S04</name>
+		<title>Get to Know the Cetaphil Baby Line</title>
+		<mediaName>M1L2S04.mp3</mediaName>
+		<animation>true</animation>
+		
+		<popup>
+			<name>pop1</name>
+			<mediaName></mediaName>
+		</popup>
+
+	</screen>
+	
+	<screen>
+		<name>M1L2S05</name>
+		<title>Get to Know the Cetaphil Baby Line</title>
+		<mediaName>M1L2S05.mp3</mediaName>
+		<animation>true</animation>
+		
+		<popup>
+			<name>pop1</name>
+			<mediaName></mediaName>
+		</popup>		
+	</screen>
+	
+	<screen>
+		<name>M1L2S06</name>
+		<title>Get to Know the Cetaphil Baby Line</title>
+		<mediaName>M1L2S06.mp3</mediaName>
+		<animation>true</animation>
+		
+		<popup>
+			<name>pop1</name>
+			<mediaName></mediaName>
+		</popup>		
+	</screen>
+	
+	<screen>
+		<name>M1L2S07</name>
+		<title>Get to Know the Cetaphil Baby Line</title>
+		<mediaName>M1L2S07.mp3</mediaName>
+		<animation>true</animation>
+	</screen>
+
+	<screen>
+		<name>M1L2S08</name>
+		<title>Get to Know the Cetaphil Baby Line</title>
+		<mediaName>M1L2S08.mp3</mediaName>
+		<animation>true</animation>
+	</screen>
+	
+	<screen>
+		<name>M1L2S09</name>
+		<title>Progress Check</title>
+		<mediaName></mediaName>
+		
+			<assessment>
+			<type>multiple</type>
+			<options>
+			<subtype>multiSelect</subtype>
+			</options>
+			</assessment>	
+		</screen>
+	
+	<screen>
+		<name>M1L2S10</name>
+		<title>Progress Check</title>
+		<mediaName></mediaName>
+		
+		<assessment>
+			<type>dragAndDrop</type>
+		</assessment>
+	</screen>
+
+	<!-- Lesson 3 -->	
+	<screen><!-- Screen 19 -->
+		<name>M1L3S01</name>
+		<title>Parent Perspective</title>
+		<mediaName>CET_116.mp4</mediaName>       <!-- changed 3/30/15  -->
+		<animation></animation>
+	</screen>
+
+	
+	<screen>
+		<name>M1L3S02</name>
+		<title>Lesson 3 Learning Objectives</title>
+		<mediaName>M1L3S02.mp3</mediaName>
+		<animation></animation>
+	</screen>
+
+	<screen> 
+		<name>M1L3S03</name>
+		<title>How Cetaphil Meets Infant Skin Care Needs: Review</title>
+		<mediaName>M1L3S03.mp3</mediaName>
+		<animation></animation>
+	</screen>
+	
+
+	
+	<screen>
+		<name>M1L3S04</name>
+		<title>Daily Lotion Category</title>
+		<mediaName>M1L3S04-1.mp3</mediaName>
+		<animation>true</animation>
+		
+		<popup>
+			<name>pop1</name>
+			<mediaName>M1L3S04-2.mp3</mediaName>
+		</popup>		
+		<popup>
+			<name>pop2</name>
+			<mediaName>M1L3S04-3.mp3</mediaName>
+		</popup>
+		<popup>
+			<name>pop3</name>
+			<mediaName>M1L3S04-4.mp3</mediaName>
+		</popup>
+		<popup>
+			<name>pop4</name>
+			<mediaName></mediaName>
+		</popup>
+	</screen>
+	
+
+	<screen>
+		<name>M1L3S05</name>
+		<title>Diaper Cream Category</title>
+		<mediaName>M1L3S05-1.mp3</mediaName>
+		<animation>true</animation>
+		
+		<popup>
+			<name>pop1</name>
+			<mediaName>M1L3S05-2.mp3</mediaName>
+		</popup>		
+		<popup>
+			<name>pop2</name>
+			<mediaName>M1L3S05-3.mp3</mediaName>
+		</popup>
+		<popup>
+			<name>pop3</name>
+			<mediaName>M1L3S05-4.mp3</mediaName>
+		</popup>
+		<popup>
+			<name>pop4</name>
+			<mediaName>M1L3S05-5.mp3</mediaName>
+		</popup>
+		<popup>
+			<name>pop5</name>
+			<mediaName></mediaName>
+		</popup>
+	</screen>
+	
+	<screen>
+		<name>M1L3S06</name>
+		<title>Wash &amp;amp; Shampoo Category</title>
+		<mediaName>M1L3S06-1.mp3</mediaName>
+		<animation>true</animation>
+		
+		<popup>
+			<name>pop1</name>
+			<mediaName>M1L3S06-2.mp3</mediaName>
+		</popup>		
+		<popup>
+			<name>pop2</name>
+			<mediaName>M1L3S06-3.mp3</mediaName>
+		</popup>
+		<popup>
+			<name>pop3</name>
+			<mediaName>M1L3S06-4.mp3</mediaName>
+		</popup>
+		<popup>
+			<name>pop4</name>
+			<mediaName>M1L3S06-5.mp3</mediaName>
+		</popup>
+	</screen>
+
+	<screen>
+		<name>M1L3S07</name>
+		<title>Moisturizing Wash Category</title>
+		<mediaName>M1L3S07-1.mp3</mediaName>
+		<animation>true</animation>
+		
+		<popup>
+			<name>pop1</name>
+			<mediaName>M1L3S07-2.mp3</mediaName>
+		</popup>		
+		<popup>
+			<name>pop2</name>
+			<mediaName>M1L3S07-3.mp3</mediaName>
+		</popup>
+		<popup>
+			<name>pop3</name>
+			<mediaName>M1L3S07-4.mp3</mediaName>
+		</popup>
+	</screen>
+	
+	<screen>
+		<name>M1L3S08</name>
+		<title>Moisturizing Oil Category</title>
+		<mediaName>M1L3S08-1.mp3</mediaName>
+		<animation>true</animation>
+		
+		<popup>
+			<name>pop1</name>
+			<mediaName>M1L3S08-2.mp3</mediaName>
+		</popup>		
+		<popup>
+			<name>pop2</name>
+			<mediaName>M1L3S08-3.mp3</mediaName>
+		</popup>
+	</screen>
+	
+	<!-- ALEX CHANGES START HERE -->
+	
+	
+	<screen>
+		<name>M1L3S09</name>
+		<title>Progress Check</title>
+		<mediaName></mediaName>
+		
+		<assessment>
+			<type>multiple</type>
+		</assessment>
+	</screen>
+	
+	<screen>
+		<name>M1L3S10</name>
+		<title>Progress Check</title>
+		<mediaName></mediaName>
+		
+		<assessment>
+			<type>multiple</type>
+		</assessment>
+	</screen>
+	
+	<screen>
+		<name>M1L3S11</name>
+		<title>Key Takeaways</title>
+		<mediaName>M1L3S11.mp3</mediaName>
+	</screen>
+
+	<!-- Lesson 4 -->	
+	<screen> <!-- 30 -->
+		<name>M1L4S01</name>
+		<title>eFlashcards</title>
+		<mediaName></mediaName>
+		
+		<popup>
+			<name>flash1</name>
+			<mediaName></mediaName>
+			<type>flash</type>
+		</popup>
+		
+		<popup>
+			<name>flash2</name>
+			<mediaName></mediaName>
+			<type>flash</type>
+		</popup>
+		
+		<popup>
+			<name>flash3</name>
+			<mediaName></mediaName>
+			<type>flash</type>
+		</popup>
+		
+		<popup>
+			<name>flash4</name>
+			<mediaName></mediaName>
+			<type>flash</type>
+		</popup>
+		
+		<popup>
+			<name>flash5</name>
+			<mediaName></mediaName>
+			<type>flash</type>
+		</popup>
+		
+	</screen>
+	
+
+	<!-- Assesment -->
+	<screen> <!-- 31 -->
+		<name>M1L5S01</name>
+		<title>Assessment</title>
+		<mediaName></mediaName>
+
+	</screen>
+	
+	<screen>
+		<name>M1L5S02</name>
+		<title>Question 1</title>
+		<mediaName></mediaName>
+		
+		<assessment>
+			<type>multiple</type>
+		</assessment>
+
+	</screen>
+	
+	<screen>
+		<name>M1L5S03</name>
+		<title>Question 2</title>
+		<mediaName></mediaName>
+		
+		<assessment>
+			<type>multiple</type>
+			
+			<options>
+				<subtype>multiSelect</subtype>
+			</options>
+			
+		</assessment>
+	</screen>
+	
+	<screen>
+		<name>M1L5S04</name>
+		<title>Question 3</title>
+		<mediaName></mediaName>
+		
+		<assessment>
+		<type>multiple</type>
+			<options>
+				<tries>1</tries>
+			</options>
+
+		</assessment>
+	</screen>
+	
+	<screen>
+		<name>M1L5S05</name>
+		<title>Question 4</title>
+		<mediaName></mediaName>
+		
+		<assessment>
+			<type>multiple</type>
+		</assessment>
+	</screen>
+	
+	<screen>
+		<name>M1L5S06</name>
+		<title>Question 5</title>
+		<mediaName></mediaName>
+		
+		<assessment>
+			<type>multiple</type>
+		</assessment>
+	</screen>
+	
+	<screen>
+		<name>M1L5S07</name>
+		<title>Question 6</title>
+		<mediaName></mediaName>
+		
+		<assessment>
+			<type>multiple</type>
+		</assessment>
+	</screen>
+	
+	<screen>
+		<name>M1L5S08</name>
+		<title>Question 7</title>
+		<mediaName></mediaName>
+		
+		<assessment>
+			<type>dragAndDrop</type>
+		</assessment>
+	</screen>
+	
+	<screen>
+		<name>M1L5S09</name>
+		<title>Question 8</title>
+		<mediaName></mediaName>
+		
+		<assessment>
+			<type>multiple</type>
+		</assessment>
+	</screen>
+	
+	<screen>
+		<name>M1L5S10</name>
+		<title>Question 9</title>
+		<mediaName></mediaName>
+		
+		<assessment>
+			<type>multiple</type>
+		</assessment>
+	</screen>
+	
+	<screen>
+		<name>M1L5S11</name>
+		<title>Question 10</title>
+		<mediaName></mediaName>
+		
+		<assessment>
+			<type>multiple</type>
+		</assessment>
+	</screen>
+	
+	<screen>
+		<name>M1L5S12</name>
+		<title>Question 11</title>
+		<mediaName></mediaName>
+		
+		<assessment>
+			<type>multiple</type>
+		</assessment>
+	</screen>
+	
+	<screen>
+		<name>M1L5S13</name>
+		<title>Question 12</title>
+		<mediaName></mediaName>
+		
+		<assessment>
+			<type>multiple</type>
+			</assessment>
+	</screen>
+	
+	<screen>
+		<name>M1L5S14</name>
+		<title>Question 13</title>
+		<mediaName></mediaName>
+		
+		<assessment>
+			<type>multiple</type>
+		</assessment>
+	</screen>
+	
+	<screen>
+		<name>M1L5S15</name>
+		<title>Question 14</title>
+		<mediaName></mediaName>
+		
+		<assessment>
+			<type>multiple</type>		
+		</assessment>
+	</screen>
+	
+	<screen>
+		<name>M1L5S16</name>
+		<title>Question 15</title>
+		<mediaName></mediaName>
+		
+		<assessment>
+			<type>multiple</type>
+		</assessment>
+	</screen>
+	
+	<screen>
+		<name>M1L6S01</name>
+		<title></title>
+		<mediaName></mediaName>
+	</screen>	
+</screenList>

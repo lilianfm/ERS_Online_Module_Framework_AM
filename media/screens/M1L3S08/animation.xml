@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- M1L3S08 -->
+<animation>
+	<!--<anim>
+		<src>M1L3S08-01.png</src>
+		<time>19</time>
+		<end>27</end>
+	</anim>
+	<anim>
+		<src>M1L3S08-02.png</src>
+		<time>28</time>
+		<end>39</end>
+	</anim>-->
+
+	<anim>
+		<element>btn1</element>
+		<time>18</time>
+	</anim>
+	<anim>
+		<element>btn2</element>
+		<time>18</time>
+	</anim>
+	
+	<anim>
+		<src>M1L3S08-03.png</src>
+		<time>15</time>
+		<end>17</end>
+	</anim>
+	<anim>
+		<src>M1L3S08-04.png</src>
+		<time>17</time>
+		<end>19</end>
+	</anim>
+	
+</animation>

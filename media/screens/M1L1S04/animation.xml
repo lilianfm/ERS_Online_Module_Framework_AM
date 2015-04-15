@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- M1L1S04 -->
+<animation>
+	<anim>
+		<src>M1L1S04-01.png</src>
+		<time>15</time>
+	</anim>
+	<anim>
+		<src>M1L1S04-02.png</src>
+		<time>18</time>
+	</anim>
+		<anim>
+		<src>M1L1S04-03.png</src>
+		<time>19</time>
+	</anim>
+		<anim>
+		<src>M1L1S04-05.png</src>
+		<time>22</time>
+	</anim>
+		<anim>
+		<src>M1L1S04-04.png</src>
+		<time>25</time>
+	</anim>
+		<anim>
+		<src>M1L1S04-06.png</src>
+		<time>31</time>
+	</anim>
+		<anim>
+		<src>M1L1S04-07.png</src>
+		<time>36</time>
+	</anim>
+		<anim>
+		<src>M1L1S04-08.png</src>
+		<time>39</time>
+	</anim>
+		<anim>
+		<src>M1L1S04-09.png</src>
+		<time>49</time>
+	</anim>
+
+</animation>

@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+/* new menu  */
+
+
+#mainMenuButton {
+	background-image: url(../media/global/images/btn_menu.png);
+    background-size: 55px 55px;
+	width: 55px;
+	height: 55px;
+	top:26px;
+	left:36px;
+
+}
+#mainMenu {
+	background-image: url(../media/global/images/menu_BG.png);
+    background-size: 338px 362px;
+	display:none;
+	position:absolute;
+	width:338px;
+	height:362px;
+	top:68px;
+	left:14px;
+	-webkit-animation-duration: 3s;
+	z-index: 9;
+}
+#mainMenu .menuClose { 
+	display:block;
+    margin-left:50%;
+	width: 355px;
+	height: 33px;
+	background-repeat:no-repeat;
+}
+
+.menuItem {
+	background-size: 265px 61px;
+	width: 265px;
+	height: 61px;
+	margin-left: 32px;
+}
+.menuItem:first-child {
+	margin-top: 24px;
+}
+
+#helpButton {  
+	background:url(../media/global/images/btn_help.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	background-size: 55px 55px;
+	width: 55px;
+	height: 55px;
+	top:26px;
+	left: 738px;
+}
+#glossaryButton {  
+	background:url(../media/global/images/btn_glossary.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	background-size: 55px 55px;
+	width: 55px;
+	height: 55px;
+	top:26px;
+	left: 803px;
+}
+#resourcesMenu {
+	position: absolute;
+	background-image: url(../media/global/images/resource_BG.png);
+    background-size: 275px 218px;
+	width: 275px;
+	height: 218px;
+	top: 68px;
+	right: 48px;
+	z-index: 9;
+}
+#resourcesMenuButton { 
+	background:url(../media/global/images/btn_resources.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	background-size: 55px 55px;
+	width: 55px;
+	height: 55px;
+	top:26px;
+	left: 869px;
+}
+#iDashButton {  
+	background:url(../media/global/images/btn_iDash.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	background-size: 55px 55px;
+	width: 55px;
+	height: 55px;
+	top:26px;
+	left: 935px;
+	z-index: 2;
+}
+
+.resourceItem {
+	background-size: 223px 61px;
+	width: 223px;
+	height: 61px;
+	margin-left: 30px;
+}
+.resourceItem:first-child {
+	margin-top: 32px;
+}
+
+
+
+
+
+

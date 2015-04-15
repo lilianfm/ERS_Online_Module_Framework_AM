@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- M1L1S06 -->
+<animation>
+	<anim>
+		<src>M1L1S06-01.png</src>
+		<time>7</time>
+	</anim>
+	<anim>
+		<src>M1L1S06-02.png</src>
+		<time>18</time>
+	</anim>
+	<anim>
+		<src>M1L1S06-03.png</src>
+		<time>28</time>
+	</anim>
+
+</animation>

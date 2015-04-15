@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<answers>
+
+<!-- Lesson 1 -->
+
+	<M1L1S07>
+		<answer>b</answer>
+		<answer>c</answer>
+		<answer>e</answer>
+	</M1L1S07>
+	
+	<M1L1S08>
+		<answer>d</answer>
+	</M1L1S08>
+
+<!-- Lesson 2 -->
+
+	<M1L2S09>
+		<answer>b</answer>
+		<answer>e</answer>
+	</M1L2S09>
+	
+	<M1L2S10>
+		<answer>
+			<drag>1</drag>
+			<drop>6</drop>
+		</answer>
+		
+		<answer>
+			<drag>2</drag>
+			<drop>3</drop>
+		</answer>
+		
+		<answer>
+			<drag>3</drag>
+			<drop>2</drop>
+		</answer>
+		
+		<answer>
+			<drag>4</drag>
+			<drop>1</drop>
+		</answer>
+		
+		<answer>
+			<drag>5</drag>
+			<drop>4</drop>
+		</answer>
+		
+		<answer>
+			<drag>6</drag>
+			<drop>5</drop>
+		</answer>
+	</M1L2S10>
+
+<!--  Lesson 3 -->
+
+	<M1L3S09>
+		<answer>c</answer>
+	</M1L3S09>
+
+	<M1L3S10>
+		<answer>b</answer>
+	</M1L3S10>
+	
+	
+	<!-- Lesson 5 Assessment -->
+	<M1L5S02>
+		<answer>e</answer>
+	</M1L5S02>
+	
+	<M1L5S03>
+		<answer>b</answer>
+		<answer>c</answer>
+		<answer>e</answer>
+	</M1L5S03>
+
+	<M1L5S04>
+		<answer>a</answer>
+	</M1L5S04>
+	
+	<M1L5S05>
+		<answer>d</answer>
+	</M1L5S05>
+	
+	<M1L5S06>
+		<answer>b</answer>
+		<answer>c</answer>
+		<answer>e</answer>
+	</M1L5S06>
+	
+	<M1L5S07>
+		<answer>b</answer>
+		<answer>e</answer>
+	</M1L5S07>
+	
+	<M1L5S08>
+		<answer>
+			<drag>1</drag>
+			<drop>6</drop>
+		</answer>
+		
+		<answer>
+			<drag>2</drag>
+			<drop>3</drop>
+		</answer>
+		
+		<answer>
+			<drag>3</drag>
+			<drop>2</drop>
+		</answer>
+		
+		<answer>
+			<drag>4</drag>
+			<drop>1</drop>
+		</answer>
+		
+		<answer>
+			<drag>5</drag>
+			<drop>4</drop>
+		</answer>
+		
+		<answer>
+			<drag>6</drag>
+			<drop>5</drop>
+		</answer>
+	</M1L5S08>
+	
+	<M1L5S09>
+		<answer>e</answer>
+	</M1L5S09>
+	
+	<M1L5S10>
+		<answer>b</answer>
+	</M1L5S10>
+	
+	<M1L5S11>
+		<answer>c</answer>
+	</M1L5S11>
+	
+	<M1L5S12>
+		<answer>b</answer>
+	</M1L5S12>
+	
+	<M1L5S13>
+		<answer>d</answer>
+	</M1L5S13>
+	
+	<M1L5S14>
+		<answer>a</answer>
+	</M1L5S14>
+	
+	<M1L5S15>
+		<answer>a</answer>
+		<answer>b</answer>
+		<answer>d</answer>
+	</M1L5S15>
+	
+	<M1L5S16>
+		<answer>c</answer>
+	</M1L5S16>
+	
+</answers>

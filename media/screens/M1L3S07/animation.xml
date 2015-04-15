@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- M1L3S07 -->
+<animation>
+	<!--<anim>
+		<src>M1L3S07-01.png</src>
+		<time>17</time>
+		<end>27</end>
+	</anim>
+	<anim>
+		<src>M1L3S07-02.png</src>
+		<time>28</time>
+		<end>37</end>
+	</anim>
+	<anim>
+		<src>M1L3S07-03.png</src>
+		<time>38</time>
+		<end>45</end>
+	</anim>-->
+
+	<anim>
+		<element>btn1</element>
+		<time>16</time>
+	</anim>
+	<anim>
+		<element>btn2</element>
+		<time>16</time>
+	</anim>
+	<anim>
+		<element>btn3</element>
+		<time>16</time>
+	</anim>
+	
+	<anim>
+		<src>M1L3S07-04.png</src>
+		<time>9</time>
+		<end>12</end>
+	</anim>
+	<anim>
+		<src>M1L3S07-05.png</src>
+		<time>12</time>
+		<end>15</end>
+	</anim>
+	<anim>
+		<src>M1L3S07-06.png</src>
+		<time>15</time>
+		<end>17</end>
+	</anim>
+	
+</animation>

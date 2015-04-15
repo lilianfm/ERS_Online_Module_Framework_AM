@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- M1L3S05 -->
+<animation>
+	<!--<anim>
+		<src>M1L3S05-01.png</src>
+		<time>23</time>
+		<end>37</end>
+	</anim>
+	<anim>
+		<src>M1L3S05-02.png</src>
+		<time>38</time>
+		<end>50</end>
+	</anim>
+	<anim>
+		<src>M1L3S05-03.png</src>
+		<time>51</time>
+		<end>66</end>
+	</anim>
+	<anim>
+		<src>M1L3S05-04.png</src>
+		<time>67</time>
+		<end>87</end>
+	</anim>-->
+
+	<anim>
+		<element>btn1</element>
+		<time>23</time>
+	</anim>
+	<anim>
+		<element>btn2</element>
+		<time>23</time>
+	</anim>
+	<anim>
+		<element>btn3</element>
+		<time>23</time>
+	</anim>
+	<anim>
+		<element>btn4</element>
+		<time>23</time>
+	</anim>
+	
+	<anim>
+		<src>M1L3S05-06.png</src>
+		<time>11</time>
+		<end>14</end>
+	</anim>
+	<anim>
+		<src>M1L3S05-07.png</src>
+		<time>14</time>
+		<end>16</end>
+	</anim>
+	<anim>
+		<src>M1L3S05-08.png</src>
+		<time>16</time>
+		<end>19</end>
+	</anim>
+	<anim>
+		<src>M1L3S05-09.png</src>
+		<time>19</time>
+		<end>22</end>
+	</anim>
+	
+</animation>
