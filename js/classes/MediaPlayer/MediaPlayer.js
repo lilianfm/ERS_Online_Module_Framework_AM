@@ -10,11 +10,14 @@ var ERS = ERS || {};
 
 
 // ---- MediaPlayer constructor ----
-ERS.MediaPlayer = function( a_mediaPath, a_animatorRef ) {
+ERS.MediaPlayer = function( a_mediaPath, a_animatorRef, a_screenRef ) {
 	this._mediaPath = a_mediaPath;
 	this._animatorRef = a_animatorRef;
+	this._screenRef = a_screenRef;
 	// assign the audio or video DOM object to load the media to
 	this._mediaDOMObject = (this instanceof ERS.Audio) ? ERS.DOM.audio : ERS.DOM.video;
+	if( a_screenRef instanceof ERS.GlossaryScreen )
+		this._mediaDOMObject = document.getElementById( "glossAudioID" );
 	
 	// saves the current time of this MediaPlayer's audio/video element for pause/resume
 	this._currentTime = 0;
@@ -62,12 +65,25 @@ ERS.MediaPlayer.prototype.refresh = function() {
 	this.play();
 };
 
-ERS.MediaPlayer.prototype.loadMedia = function( a_mediaPath ) {
+ERS.MediaPlayer.prototype.loadMedia = function( a_mediaPath, a_mediaDOM ) {
 	if( a_mediaPath )
 		this._mediaPath = a_mediaPath;
 	
+	if( a_mediaDOM )
+		this._mediaDOMObject = a_mediaDOM;
+	
+	this._isPlaying = false;
+	
+	if( this instanceof ERS.Video )
+	{
+		ERS.DOM.video.style.display = "inherit";
+	}
+	
 	this._mediaDOMObject.src = this._mediaPath;
 	this._mediaDOMObject.load();
+	
+	if( this._mediaDOMObject.readyState > 0 )
+		this._mediaDOMObject.currentTime = this._currentTime;
 };
 
 ERS.MediaPlayer.prototype.unloadMedia = function() {
@@ -76,6 +92,7 @@ ERS.MediaPlayer.prototype.unloadMedia = function() {
 	
 	if( this instanceof ERS.Video )
 	{
+		ERS.DOM.video.style.display = "none";
 		this._mediaDOMObject.src = "";
 		this._mediaDOMObject.load();
 	}
@@ -90,7 +107,8 @@ ERS.MediaPlayer.prototype.play = function() {
 	$( "#" + ERS.DOM.playPauseButton.id ).switchClass( "play", "pause" );
 	
 	// use the old time (for resuming playback)
-	this._mediaDOMObject.currentTime = this._currentTime;
+	if( this._mediaDOMObject.readyState > 0 )
+		this._mediaDOMObject.currentTime = this._currentTime;
 	this._mediaDOMObject.play();
 	
 	this._isPlaying = true;
@@ -115,15 +133,23 @@ ERS.MediaPlayer.prototype.pause = function( a_effectUI ) {
 // ---- reset this MediaPlayer object as if it is being played for the first time ----
 ERS.MediaPlayer.prototype.reset = function() {
 	this._currentTime = 0;
-	this._mediaDOMObject.currentTime = 0;
+	if( this._mediaDOMObject.readyState > 0 )
+		this._mediaDOMObject.currentTime = 0;
 	ERS.DOM.scrubber.style.width = "0px";
-	this.loadMedia();
+	var baseName = ERS.moduleData.getBaseScreenObject().getScreenName();
+	console.log( baseName );
+	if( !(this._screenRef instanceof ERS.HelpScreen || (this._screenRef instanceof ERS.PopupScreen && !(baseName == "M1L3S04" || baseName == "M1L3S05" || baseName == "M1L3S06" || baseName == "M1L3S07" || baseName == "M1L3S08")) ) )
+		this.loadMedia();
 	if( this._animatorRef != null )
 		this._animatorRef.timeReset();
 };
 
 // ---- called on every ontimeupdate for this MediaPlayer's media DOM object ----
 ERS.MediaPlayer.prototype.timeUpdate = function() {
+	
+	if( !this._isPlaying )
+		return;
+	
 	// keep track of the current time
 	this._currentTime = this._mediaDOMObject.currentTime;
 	// determine if the audio/video element is finished
@@ -156,4 +182,8 @@ ERS.MediaPlayer.prototype.scrubberTouched = function( e ) {
 	var scrubberWidth = $( "#" + ERS.DOM.scrubberBackground.id ).width();
 	var percentToSet = (e.offsetX / scrubberWidth);
 	this._mediaDOMObject.currentTime = percentToSet * this._mediaDOMObject.duration;
+};
+
+ERS.MediaPlayer.prototype.getMediaDOM = function() {
+	return this._mediaDOMObject;
 };

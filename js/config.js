@@ -11,7 +11,7 @@
 // true for debug tools (button creator tool), false to turn them off
 var DEBUG_TOOLS_ENABLED = false;
 // controls red, transparent button color (true = visible buttons, false = invisible buttons)
-var DEBUG_BUTTON_OPACITY = true;
+var DEBUG_BUTTON_OPACITY = false;
 
 // first lesson screen number (the screen number the first lesson begins on)
 var FIRST_LESSON_SCREEN_NUMBER = 1;

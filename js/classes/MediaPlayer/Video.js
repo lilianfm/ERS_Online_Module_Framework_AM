@@ -29,9 +29,9 @@ ERS.Video.prototype.refresh = function() {
 	ERS.MediaPlayer.prototype.refresh.call(this);
 };
 
-ERS.Video.prototype.loadMedia = function( a_mediaPath ) {
+ERS.Video.prototype.loadMedia = function( a_mediaPath, a_mediaDOM ) {
 	// call base function
-	ERS.MediaPlayer.prototype.loadMedia.call( this, a_mediaPath );
+	ERS.MediaPlayer.prototype.loadMedia.call( this, a_mediaPath, a_mediaDOM );
 };
 ERS.Video.prototype.unloadMedia = function() {
 	// call base function
@@ -62,4 +62,9 @@ ERS.Video.prototype.timeUpdate = function() {
 ERS.Video.prototype.scrubberTouched = function( e ) {
 	// call base function
 	ERS.MediaPlayer.prototype.scrubberTouched.call(this, e);
+};
+
+ERS.Video.prototype.getMediaDOM = function() {
+	// call base function
+	return ERS.MediaPlayer.prototype.getMediaDOM.call(this);
 };

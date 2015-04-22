@@ -6,7 +6,12 @@
     font-weight: regular;
     font-style: regular;
 }
-
+@font-face {
+    font-family: 'Myriad-Bold';
+    src: url('../media/global/fonts/MyriadPro-Bold.otf');
+    font-weight: bold;
+    font-style: bold;
+}
 @font-face {
     font-family: 'Myriad-Light';
     src: url('../media/global/fonts/MyriadPro-Light.otf');
@@ -33,10 +38,10 @@
 #glossTermHolder{
 	position:absolute;
 	overflow-y: scroll;
-	height:424px;
-	width:360px;
-	left:10px;
-	top: 36px;
+	height:346px;
+	width:357px;
+	left:13px;
+	top: 128px;
 }
 
 #glossTerm {
@@ -85,13 +90,13 @@
 	height:45px; 
 }
 #TermTitle {
-	font-family: 'Myriad';
- 	font-style:normal;
+	font-family: 'Myriad-Bold';
+ 	font-style:bold;
 	font-size:28px;
   	line-height: 32px;
 	position:absolute;
 	width:300px;
-	top:25px;
+	top:28px;
 	left:420px;
 	color:#5c6870;
 }
@@ -100,7 +105,7 @@
 	font-style:normal;
 	font-size:24px;
 	position:absolute;
-	top:100px;
+	top:128px;
 	left:420px;
 	width:300px;
 	color:#5c6870;

@@ -125,7 +125,7 @@ ERS.GlossaryScreen.prototype.termSelected = function( a_DOMRef, a_termIndex, a_t
 		case "glossTermChild":
 			this._glossTermTitle.innerHTML = this._glossaryTerms[a_termIndex][a_termChildIndex].title;
 			this._glossTermDef.innerHTML = this._glossaryTerms[a_termIndex][a_termChildIndex].def;
-			this.getMediaPlayer().loadMedia( MEDIA_AUDIO_PATH + "/" + this._glossaryTerms[a_termIndex][a_termChildIndex].mediaName );
+			this.getMediaPlayer().loadMedia( MEDIA_AUDIO_PATH + "/" + this._glossaryTerms[a_termIndex][a_termChildIndex].mediaName, document.getElementById( "glossAudioID" ) );
 			break;
 	}
 };

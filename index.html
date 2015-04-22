@@ -80,10 +80,12 @@
 		<!-- End menu -->
  
 		<!-- Lesson titles -->       
-		<span id="titleM">Topic Title</span>
+		<span id="titleM"></span>
         	
         <div id="helpButton" onclick='ERS.helpPopup.loadScreen();'></div>	
         <div id="glossaryButton" onclick='ERS.glossary.loadScreen();'></div>
+		<audio id="glossAudioID"  src="" type="audio/mpeg" ontimeupdate="ERS.moduleData.getCurrentScreenObject().timeUpdate(this);">
+		</audio>
 		<!-- Resource menu --> 
 		<div id="resourcesMenuButton" onclick='ERS.resourcesMenu.run( true );'>
 		</div>

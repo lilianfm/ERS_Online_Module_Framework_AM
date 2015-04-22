@@ -58,20 +58,19 @@ a:focus{ outline:0; }
 
 img { border: none; }
 
-.button {    /*****  necessary ????**/
+.button {   
 	cursor: pointer;
 }
 
 #titleM { 
 	font-family:Folks;
-	font-size: 26px;
+	font-size: 25px;
 	line-height: 46px;
-	color: #414042;
+	color: #4d4c4e;
 	position:absolute;
-	top: 26px;
+	top: 22px;
 	left: 104px;
 }
-
 
 
 /************  Audio Scrubber *************/

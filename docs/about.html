@@ -82,7 +82,7 @@ code
 <h3>
 Author: Alex Miele
 <br>
-Date: February, 2015 (last update: 4/09/2015)
+Date: February, 2015 (last update: 3/10/2015)
 <br>
 Email: amiele12 (at) gmail.com
 </h3>
@@ -399,36 +399,27 @@ Email: amiele12 (at) gmail.com
 		<h3> How To: Buttons </h3>
 		<p>
 			Buttons are written purely in HTML (along with in-line CSS); there is no JavaScript or XML required. The button's HTML is added to the screen, or popup screen's,
-			content folder HTML file. As an example, let's add a button to screen M1L1S00, which when clicked will open a popup on the screen called "pop1". 
-			We would first open the HTML file located under media/screens/M1L1S00/M1L1S00.html. Next, add a line to this file similar to the example HTML/CSS below:
+			content folder. As an example, let's add a button to screen M1L1S00, which when clicked will open a popup on the screen called "pop1". 
+			We would first open the html file located under media/screens/M1L1S00/M1L1S00.html. Next, add a line to this file similar to the example HTML/CSS below:
 		</p>
 		
 		<xmp>
-		<div class="button" data-button=' "open":"pop1" ' style="position:absolute; top:602px; left:364px; width:247px; height:54px;"></div>
+		<div id="pop1" class="button open" style="position:absolute; top:602px; left:364px; width:247px; height:54px;"></div>
 		</xmp>
 		
 		<p>
-			The data-button attribute is where all actions (and information regarding those actions) are placed. The format is fairly identical to JSON; each action (such as
-			"open") is in quotes, followed by a colon, followed by data about the action in quotes. In this case, when the button is clicked, the button will do one action: open
-			the popup named "pop1". The "style" attribute of the above div will normally need to be customized to fit the buttons position. The 'button' class is not required, 
-			but is an easy way to change the CSS for all buttons uniformly. Multiple actions can be strung together by separating 
-			the actions with commas (again, similar to JSON). Here's an example of a button that will both close a popup named "pop1" and then open another popup named "pop2":
+			The "style" attribute of the above div will normally need to be customized to fit the buttons position. Next, the two attributes of importance are the "id" and "class"
+			attributes, as these describe how the button should work. First, all buttons require the class 'button' as this tells the framework's Controller that this element should
+			function as a button. Next, a secondary class is added (in this case, 'open') to explain what "action" the button should take. All actions are described below. Finally,
+			the "id" attribute of the button's div is named after the element in which we want the button to act on, in this case the popup named 'pop1'.
 		</p>
 		
-		<xmp>
-		<div class="button" data-button=' "close":"pop1", "open":"pop2" ' style="position:absolute; top:602px; left:364px; width:247px; height:54px;"></div>
-		</xmp>
-		
 		<p>
-		All currently usable actions are described below.
 			<dl>
-			<dt>Button actions (to be used in the 'data-button' attribute):</dt>
-				<dd>- "open":"&ltnameOfPopup&gt" - opens the popup given in &ltnameOfPopup&gt</dd>
-				<dd>- "close":"&ltnameOfPopup&gt" - closes the popup given in &ltnameOfPopup&gt</dd>
-				<dd>- "flip":"&ltnameOfPopup&gt" - tells the button to "flip" the popup over</dd>
-				<dd>- "toggleAudio":"toggleAudio" - this button will toggle the current screen's audio/video element</dd>
-				<dd>- "checkBox":"checkBox" - the button will be used as a selectable "checkBox" in a screen containing a multiple choice assessment</dd>
-				<dd>- "submit":"submit" - the button will be used as a submit button in a screen containing an assessment</dd>
+			<dt>Button actions (added as secondary classes):</dt>
+				<dd>- 'open': tells the button to open the element given in the id</dd>
+				<dd>- 'close': tells the button to close the element given in the id </dd>
+				<dd>- 'flip': tells the button to "flip" the popup over</dd>
 			</dl>
 		</p>
 		

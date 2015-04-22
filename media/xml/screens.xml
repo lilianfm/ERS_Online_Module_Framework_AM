@@ -53,7 +53,7 @@
 	
 	<screen>
 		<name>M1L1S05</name>
-		<title>How Cetaphil Baby Meets Infant Skin Care Needs</title>
+		<title>How Cetaphil<![CDATA[<sup>®</sup>]]> Baby Meets Infant Skin Care Needs</title>
 		<mediaName>M1L1S05.mp3</mediaName>
 		<animation>true</animation>
 		
@@ -138,14 +138,14 @@
 	
 	<screen>
 		<name>M1L2S03</name>
-		<title>Get to Know the Cetaphil Baby Line</title>
+		<title>Get to Know the Cetaphil<![CDATA[<sup>®</sup>]]> Baby Line</title>
 		<mediaName>M1L2S03.mp3</mediaName>
 		<animation>true</animation>
 	</screen>
 	
 	<screen>
 		<name>M1L2S04</name>
-		<title>Get to Know the Cetaphil Baby Line</title>
+		<title>Get to Know the Cetaphil<![CDATA[<sup>®</sup>]]> Baby Line</title>
 		<mediaName>M1L2S04.mp3</mediaName>
 		<animation>true</animation>
 		
@@ -158,7 +158,7 @@
 	
 	<screen>
 		<name>M1L2S05</name>
-		<title>Get to Know the Cetaphil Baby Line</title>
+		<title>Get to Know the Cetaphil<![CDATA[<sup>®</sup>]]> Baby Line</title>
 		<mediaName>M1L2S05.mp3</mediaName>
 		<animation>true</animation>
 		
@@ -170,7 +170,7 @@
 	
 	<screen>
 		<name>M1L2S06</name>
-		<title>Get to Know the Cetaphil Baby Line</title>
+		<title>Get to Know the Cetaphil<![CDATA[<sup>®</sup>]]> Baby Line</title>
 		<mediaName>M1L2S06.mp3</mediaName>
 		<animation>true</animation>
 		
@@ -182,14 +182,14 @@
 	
 	<screen>
 		<name>M1L2S07</name>
-		<title>Get to Know the Cetaphil Baby Line</title>
+		<title>Get to Know the Cetaphil<![CDATA[<sup>®</sup>]]> Baby Line</title>
 		<mediaName>M1L2S07.mp3</mediaName>
 		<animation>true</animation>
 	</screen>
 
 	<screen>
 		<name>M1L2S08</name>
-		<title>Get to Know the Cetaphil Baby Line</title>
+		<title>Get to Know the Cetaphil<![CDATA[<sup>®</sup>]]> Baby Line</title>
 		<mediaName>M1L2S08.mp3</mediaName>
 		<animation>true</animation>
 	</screen>
@@ -235,7 +235,7 @@
 
 	<screen> 
 		<name>M1L3S03</name>
-		<title>How Cetaphil Meets Infant Skin Care Needs: Review</title>
+		<title>How Cetaphil<![CDATA[<sup>®</sup>]]> Meets Infant Skin Care Needs: Review</title>
 		<mediaName>M1L3S03.mp3</mediaName>
 		<animation></animation>
 	</screen>
@@ -488,6 +488,10 @@
 		
 		<assessment>
 			<type>multiple</type>
+			
+			<options>
+				<subtype>multiSelect</subtype>
+			</options>
 		</assessment>
 	</screen>
 	
@@ -498,6 +502,10 @@
 		
 		<assessment>
 			<type>multiple</type>
+			
+			<options>
+				<subtype>multiSelect</subtype>
+			</options>
 		</assessment>
 	</screen>
 	
@@ -577,7 +585,11 @@
 		<mediaName></mediaName>
 		
 		<assessment>
-			<type>multiple</type>		
+			<type>multiple</type>
+			
+			<options>
+				<subtype>multiSelect</subtype>
+			</options>		
 		</assessment>
 	</screen>
 	
@@ -592,8 +604,9 @@
 	</screen>
 	
 	<screen>
-		<name>M1L6S01</name>
+		<name>M1L6S01</name> <!-- 0 -->
 		<title></title>
+		<type>splash</type>
 		<mediaName></mediaName>
 	</screen>	
 </screenList>

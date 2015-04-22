@@ -186,8 +186,14 @@ ERS.ModuleData.prototype.activateNextScreenInBuffer = function() {
 	if( this._zBuffer.length <= 0 )
 		return;
 	
-	this._zBuffer[this._zBuffer.length-1].getMediaPlayer().loadMedia();
-	this._zBuffer[this._zBuffer.length-1].getMediaPlayer().play();
+	var mediaSrc = this._zBuffer[this._zBuffer.length-1].getMediaPlayer().getMediaDOM().src;
+
+	if( mediaSrc.toString().substring( mediaSrc.length-1, mediaSrc.length ).toString() == "/" )
+	{
+		this._zBuffer[this._zBuffer.length-1].getMediaPlayer().loadMedia();
+	}
+	//this._zBuffer[this._zBuffer.length-1].getMediaPlayer().loadMedia();
+	this._zBuffer[this._zBuffer.length-1].getMediaPlayer().getMediaDOM().oncanplay = this._zBuffer[this._zBuffer.length-1].getMediaPlayer().play();
 };
 
 ERS.ModuleData.prototype.pauseMediaOnExistingScreens = function() {

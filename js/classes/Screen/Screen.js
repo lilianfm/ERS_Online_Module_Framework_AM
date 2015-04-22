@@ -34,7 +34,7 @@ ERS.Screen = function( a_params ) {
 	// does this screen have a video? true/false
 	this._screenHasVideo = this._determineAudioOrVideo();
 	// create the member MediaPlayer object (audio or video)
-	this._mediaPlayer = this._screenHasVideo ? new ERS.Video( this._mediaPath, this._animator ) : new ERS.Audio( this._mediaPath, this._animator );
+	this._mediaPlayer = this._screenHasVideo ? new ERS.Video( this._mediaPath, this._animator ) : new ERS.Audio( this._mediaPath, this._animator, this );
 	
 	// assign the proper assessment object for this screen, null if no assessment exists for this screen
 	this._assessment;
@@ -295,8 +295,10 @@ ERS.Screen.prototype._parsePopupData = function( a_popupData ) {
 // ---- find each button in this Screen's HTML, and make it function properly ----
 ERS.Screen.prototype._buildButtons = function() {
 	var classRef = this;
-	$( "#" + this._divContainerId ).find( "[data-button]" ).each( function() {
+	$( "#" + this._divContainerId ).find( ".button" ).each( function() {
+		
 		var button = new ERS.Button( this, ERS.moduleData.getScreenZBufferHeight( classRef ) );
+		
 		classRef._buttonList.push( button );	
 	});
 };
